@@ -4,6 +4,8 @@ body {
   text-align: center;
   background-color: rgb(255, 255, 255);
   font-family: sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("1.jpg");
 }
 .h1 {
   color: wheat;
@@ -15,31 +17,31 @@ body {
   text-transform: uppercase;
   transition: all 4s ease-in-out;
 }
-form{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
-.form-control{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    margin-bottom: 16px;
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 16px;
 }
-input{
-    height: 45px;
+input {
+  height: 45px;
 }
 
-form .submit{
-    background: #ff5722;
-    border-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
 }
-form .submit:hover{
-    background: #f44336;
-    cursor: pointer;
+form .submit:hover {
+  background: #f44336;
+  cursor: pointer;
 }
